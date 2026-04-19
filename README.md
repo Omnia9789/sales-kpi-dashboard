@@ -29,6 +29,16 @@ This project covers the complete data analyst workflow: data cleaning with Pytho
 
 ![Dashboard Overview](assets/dashboard_screenshot.svg)
 
+### Full Screenshot Gallery
+
+![Trend Chart](assets/trend_chart.svg)
+![Region Chart](assets/region_chart.svg)
+![Category Treemap](assets/category_treemap.svg)
+![Top Products](assets/top_products.svg)
+![Excel Report](assets/excel_report.svg)
+![Pipeline Run](assets/pipeline_run.svg)
+![SQL Query](assets/sql_query.svg)
+
 ---
 
 ## Project Structure
