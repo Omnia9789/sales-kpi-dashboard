@@ -1,0 +1,99 @@
+<svg width="1200" height="520" viewBox="0 0 1200 520" xmlns="http://www.w3.org/2000/svg" font-family="system-ui, -apple-system, sans-serif">
+  <rect width="1200" height="520" fill="#f0f2f6"/>
+  <rect x="0" y="0" width="1200" height="40" fill="#262730"/>
+  <circle cx="20" cy="20" r="6" fill="#ff5f57"/>
+  <circle cx="38" cy="20" r="6" fill="#febc2e"/>
+  <circle cx="56" cy="20" r="6" fill="#28c840"/>
+  <rect x="200" y="8" width="600" height="24" rx="4" fill="#1a1c26"/>
+  <text x="500" y="24" font-size="11" fill="#888" text-anchor="middle">localhost:8501</text>
+
+  <rect x="0" y="40" width="220" height="480" fill="#262730"/>
+  <text x="16" y="80" font-size="13" fill="#fff" font-weight="600">Sales KPI Dashboard</text>
+
+  <!-- Main content -->
+  <rect x="232" y="50" width="952" height="460" fill="#f0f2f6"/>
+
+  <text x="248" y="90" font-size="18" fill="#1f3864" font-weight="700">📅 Monthly Revenue Trend</text>
+  <text x="248" y="110" font-size="11" fill="#888">Month-over-month revenue with drop detection (threshold: 10%)</text>
+
+  <!-- Chart container -->
+  <rect x="232" y="120" width="950" height="320" rx="8" fill="#fff" stroke="#e0e0e0" stroke-width="0.5"/>
+
+  <!-- Y axis -->
+  <line x1="290" y1="140" x2="290" y2="420" stroke="#eee" stroke-width="1"/>
+  <text x="282" y="148" font-size="10" fill="#aaa" text-anchor="end">$60K</text>
+  <text x="282" y="208" font-size="10" fill="#aaa" text-anchor="end">$50K</text>
+  <text x="282" y="268" font-size="10" fill="#aaa" text-anchor="end">$40K</text>
+  <text x="282" y="328" font-size="10" fill="#aaa" text-anchor="end">$30K</text>
+  <text x="282" y="388" font-size="10" fill="#aaa" text-anchor="end">$20K</text>
+  <!-- Grid -->
+  <line x1="290" y1="148" x2="1160" y2="148" stroke="#f8f8f8" stroke-width="1"/>
+  <line x1="290" y1="208" x2="1160" y2="208" stroke="#f8f8f8" stroke-width="1"/>
+  <line x1="290" y1="268" x2="1160" y2="268" stroke="#f8f8f8" stroke-width="1"/>
+  <line x1="290" y1="328" x2="1160" y2="328" stroke="#f8f8f8" stroke-width="1"/>
+  <line x1="290" y1="388" x2="1160" y2="388" stroke="#f8f8f8" stroke-width="1"/>
+  <!-- X axis -->
+  <line x1="290" y1="420" x2="1160" y2="420" stroke="#eee" stroke-width="1"/>
+
+  <!-- Shaded area under line -->
+  <polygon points="295,370 345,345 395,355 445,340 495,380 545,360 595,330 645,310 695,325 745,380 795,300 845,280 895,260 945,290 995,270 1045,240 1095,255 1145,230 1155,420 295,420"
+    fill="#2e75b6" opacity="0.08"/>
+
+  <!-- Main line -->
+  <polyline points="295,370 345,345 395,355 445,340 495,380 545,360 595,330 645,310 695,325 745,380 795,300 845,280 895,260 945,290 995,270 1045,240 1095,255 1145,230"
+    fill="none" stroke="#2e75b6" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- Normal dots -->
+  <circle cx="295" cy="370" r="4" fill="#fff" stroke="#2e75b6" stroke-width="2"/>
+  <circle cx="345" cy="345" r="4" fill="#fff" stroke="#2e75b6" stroke-width="2"/>
+  <circle cx="395" cy="355" r="4" fill="#fff" stroke="#2e75b6" stroke-width="2"/>
+  <circle cx="445" cy="340" r="4" fill="#fff" stroke="#2e75b6" stroke-width="2"/>
+  <circle cx="545" cy="360" r="4" fill="#fff" stroke="#2e75b6" stroke-width="2"/>
+  <circle cx="595" cy="330" r="4" fill="#fff" stroke="#2e75b6" stroke-width="2"/>
+  <circle cx="645" cy="310" r="4" fill="#fff" stroke="#2e75b6" stroke-width="2"/>
+  <circle cx="695" cy="325" r="4" fill="#fff" stroke="#2e75b6" stroke-width="2"/>
+  <circle cx="795" cy="300" r="4" fill="#fff" stroke="#2e75b6" stroke-width="2"/>
+  <circle cx="845" cy="280" r="4" fill="#fff" stroke="#2e75b6" stroke-width="2"/>
+  <circle cx="895" cy="260" r="4" fill="#fff" stroke="#2e75b6" stroke-width="2"/>
+  <circle cx="945" cy="290" r="4" fill="#fff" stroke="#2e75b6" stroke-width="2"/>
+  <circle cx="995" cy="270" r="4" fill="#fff" stroke="#2e75b6" stroke-width="2"/>
+  <circle cx="1045" cy="240" r="4" fill="#fff" stroke="#2e75b6" stroke-width="2"/>
+  <circle cx="1095" cy="255" r="4" fill="#fff" stroke="#2e75b6" stroke-width="2"/>
+  <circle cx="1145" cy="230" r="4" fill="#fff" stroke="#2e75b6" stroke-width="2"/>
+
+  <!-- DROP markers (red X) -->
+  <circle cx="495" cy="380" r="9" fill="none" stroke="#e53935" stroke-width="2.5"/>
+  <line x1="491" y1="376" x2="499" y2="384" stroke="#e53935" stroke-width="2" stroke-linecap="round"/>
+  <line x1="499" y1="376" x2="491" y2="384" stroke="#e53935" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="745" cy="380" r="9" fill="none" stroke="#e53935" stroke-width="2.5"/>
+  <line x1="741" y1="376" x2="749" y2="384" stroke="#e53935" stroke-width="2" stroke-linecap="round"/>
+  <line x1="749" y1="376" x2="741" y2="384" stroke="#e53935" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Drop labels -->
+  <rect x="456" y="390" width="80" height="18" rx="4" fill="#fce4ec"/>
+  <text x="496" y="403" font-size="9" fill="#c62828" text-anchor="middle">-14.2% drop</text>
+  <rect x="706" y="390" width="80" height="18" rx="4" fill="#fce4ec"/>
+  <text x="746" y="403" font-size="9" fill="#c62828" text-anchor="middle">-12.8% drop</text>
+
+  <!-- X axis labels -->
+  <text x="295" y="433" font-size="9" fill="#aaa" text-anchor="middle">2021-01</text>
+  <text x="395" y="433" font-size="9" fill="#aaa" text-anchor="middle">2021-03</text>
+  <text x="495" y="433" font-size="9" fill="#aaa" text-anchor="middle">2021-05</text>
+  <text x="595" y="433" font-size="9" fill="#aaa" text-anchor="middle">2021-07</text>
+  <text x="695" y="433" font-size="9" fill="#aaa" text-anchor="middle">2021-09</text>
+  <text x="795" y="433" font-size="9" fill="#aaa" text-anchor="middle">2021-11</text>
+  <text x="895" y="433" font-size="9" fill="#aaa" text-anchor="middle">2022-01</text>
+  <text x="995" y="433" font-size="9" fill="#aaa" text-anchor="middle">2022-03</text>
+  <text x="1095" y="433" font-size="9" fill="#aaa" text-anchor="middle">2022-05</text>
+
+  <!-- Legend -->
+  <line x1="950" y1="138" x2="970" y2="138" stroke="#2e75b6" stroke-width="2.5"/>
+  <circle cx="960" cy="138" r="4" fill="#fff" stroke="#2e75b6" stroke-width="2"/>
+  <text x="975" y="142" font-size="10" fill="#555">Monthly Revenue</text>
+  <circle cx="1070" cy="138" r="8" fill="none" stroke="#e53935" stroke-width="2"/>
+  <text x="1082" y="142" font-size="10" fill="#555">Revenue drop &gt;10%</text>
+
+  <!-- Alert box -->
+  <rect x="232" y="452" width="950" height="36" rx="4" fill="#fff3cd" stroke="#ffc107" stroke-width="1.5"/>
+  <text x="250" y="474" font-size="12" fill="#856404" font-weight="500">⚠️  2 months had a revenue drop &gt; 10%:  2021-05 (–14.2%),  2021-11 (–12.8%)</text>
+</svg>

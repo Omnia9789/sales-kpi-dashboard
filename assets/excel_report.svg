@@ -1,0 +1,152 @@
+<svg width="1200" height="620" viewBox="0 0 1200 620" xmlns="http://www.w3.org/2000/svg" font-family="system-ui, -apple-system, sans-serif">
+  <rect width="1200" height="620" fill="#f3f3f3"/>
+
+  <!-- Title bar (Excel) -->
+  <rect x="0" y="0" width="1200" height="32" fill="#217346"/>
+  <text x="600" y="21" font-size="12" fill="#fff" text-anchor="middle" font-weight="600">sales_kpi_report_20240419_143022.xlsx — Excel</text>
+  <circle cx="1168" cy="16" r="7" fill="#ff5f57"/>
+  <circle cx="1148" cy="16" r="7" fill="#febc2e"/>
+  <circle cx="1128" cy="16" r="7" fill="#28c840"/>
+
+  <!-- Ribbon -->
+  <rect x="0" y="32" width="1200" height="46" fill="#e9e9e9" stroke="#d0d0d0" stroke-width="0.5"/>
+  <text x="20" y="52" font-size="11" fill="#333">Home</text>
+  <text x="68" y="52" font-size="11" fill="#333">Insert</text>
+  <text x="114" y="52" font-size="11" fill="#333">Page Layout</text>
+  <text x="192" y="52" font-size="11" fill="#333">Formulas</text>
+  <text x="250" y="52" font-size="11" fill="#333">Data</text>
+  <text x="284" y="52" font-size="11" fill="#333">Review</text>
+  <text x="326" y="52" font-size="11" fill="#333">View</text>
+
+  <!-- Formula bar -->
+  <rect x="0" y="78" width="1200" height="24" fill="#fff" stroke="#d0d0d0" stroke-width="0.5"/>
+  <text x="12" y="94" font-size="10" fill="#888">A1</text>
+  <line x1="40" y1="78" x2="40" y2="102" stroke="#d0d0d0" stroke-width="0.5"/>
+  <text x="50" y="94" font-size="10" fill="#555">Sales KPI Dashboard — Executive Summary</text>
+
+  <!-- Sheet tab bar -->
+  <rect x="0" y="590" width="1200" height="30" fill="#e5e5e5" stroke="#d0d0d0" stroke-width="0.5"/>
+  <rect x="4" y="594" width="150" height="26" rx="3" fill="#217346"/>
+  <text x="79" y="611" font-size="10" fill="#fff" text-anchor="middle" font-weight="600">Executive Summary</text>
+  <rect x="158" y="596" width="130" height="22" rx="3" fill="#fff" stroke="#d0d0d0" stroke-width="0.5"/>
+  <text x="223" y="611" font-size="10" fill="#555" text-anchor="middle">Revenue by Region</text>
+  <rect x="292" y="596" width="110" height="22" rx="3" fill="#fff" stroke="#d0d0d0" stroke-width="0.5"/>
+  <text x="347" y="611" font-size="10" fill="#555" text-anchor="middle">Top 10 Products</text>
+  <rect x="406" y="596" width="130" height="22" rx="3" fill="#fff" stroke="#d0d0d0" stroke-width="0.5"/>
+  <text x="471" y="611" font-size="10" fill="#555" text-anchor="middle">Category Breakdown</text>
+  <rect x="540" y="596" width="110" height="22" rx="3" fill="#fff" stroke="#d0d0d0" stroke-width="0.5"/>
+  <text x="595" y="611" font-size="10" fill="#555" text-anchor="middle">Monthly Trend</text>
+  <rect x="654" y="596" width="130" height="22" rx="3" fill="#fff" stroke="#d0d0d0" stroke-width="0.5"/>
+  <text x="719" y="611" font-size="10" fill="#555" text-anchor="middle">Customer Segments</text>
+
+  <!-- Main spreadsheet area -->
+  <rect x="0" y="102" width="1200" height="488" fill="#fff"/>
+
+  <!-- Row numbers column -->
+  <rect x="0" y="102" width="36" height="488" fill="#f5f5f5" stroke="#d0d0d0" stroke-width="0.5"/>
+  <text x="18" y="126" font-size="9" fill="#888" text-anchor="middle">1</text>
+  <text x="18" y="150" font-size="9" fill="#888" text-anchor="middle">2</text>
+  <text x="18" y="185" font-size="9" fill="#888" text-anchor="middle">3</text>
+  <text x="18" y="210" font-size="9" fill="#888" text-anchor="middle">4</text>
+  <text x="18" y="235" font-size="9" fill="#888" text-anchor="middle">5</text>
+  <text x="18" y="260" font-size="9" fill="#888" text-anchor="middle">6</text>
+  <text x="18" y="285" font-size="9" fill="#888" text-anchor="middle">7</text>
+  <text x="18" y="310" font-size="9" fill="#888" text-anchor="middle">8</text>
+
+  <!-- Merged title cell A1:F1 -->
+  <rect x="36" y="106" width="800" height="30" rx="0" fill="#1f3864"/>
+  <text x="436" y="126" font-size="14" fill="#fff" text-anchor="middle" font-weight="600">Sales KPI Dashboard — Executive Summary</text>
+
+  <!-- Timestamp row -->
+  <rect x="36" y="136" width="800" height="22" fill="#2c4a7c"/>
+  <text x="436" y="151" font-size="10" fill="#90aec8" text-anchor="middle" font-style="italic">Generated: 2024-04-19  14:30:22</text>
+
+  <!-- KPI card row headers -->
+  <rect x="36" y="162" width="130" height="36" rx="2" fill="#2e75b6"/>
+  <text x="101" y="176" font-size="9" fill="#fff" text-anchor="middle">Total Revenue</text>
+  <rect x="36" y="198" width="130" height="36" rx="2" fill="#bdd7ee"/>
+  <text x="101" y="220" font-size="13" fill="#1f3864" text-anchor="middle" font-weight="700">$2,297,201</text>
+
+  <rect x="172" y="162" width="130" height="36" rx="2" fill="#70ad47"/>
+  <text x="237" y="176" font-size="9" fill="#fff" text-anchor="middle">Total Profit</text>
+  <rect x="172" y="198" width="130" height="36" rx="2" fill="#e2efda"/>
+  <text x="237" y="220" font-size="13" fill="#375623" text-anchor="middle" font-weight="700">$286,397</text>
+
+  <rect x="308" y="162" width="130" height="36" rx="2" fill="#ffd700" fill-opacity="0.8"/>
+  <text x="373" y="176" font-size="9" fill="#7d5200" text-anchor="middle">Avg Profit Margin</text>
+  <rect x="308" y="198" width="130" height="36" rx="2" fill="#fff2cc"/>
+  <text x="373" y="220" font-size="13" fill="#7d5200" text-anchor="middle" font-weight="700">12.47%</text>
+
+  <rect x="444" y="162" width="130" height="36" rx="2" fill="#1f3864"/>
+  <text x="509" y="176" font-size="9" fill="#fff" text-anchor="middle">Total Orders</text>
+  <rect x="444" y="198" width="130" height="36" rx="2" fill="#dae3f3"/>
+  <text x="509" y="220" font-size="13" fill="#1f3864" text-anchor="middle" font-weight="700">5,009</text>
+
+  <rect x="580" y="162" width="130" height="36" rx="2" fill="#2e75b6"/>
+  <text x="645" y="176" font-size="9" fill="#fff" text-anchor="middle">Unique Customers</text>
+  <rect x="580" y="198" width="130" height="36" rx="2" fill="#bdd7ee"/>
+  <text x="645" y="220" font-size="13" fill="#1f3864" text-anchor="middle" font-weight="700">793</text>
+
+  <rect x="716" y="162" width="120" height="36" rx="2" fill="#70ad47"/>
+  <text x="776" y="176" font-size="9" fill="#fff" text-anchor="middle">Unique Products</text>
+  <rect x="716" y="198" width="120" height="36" rx="2" fill="#e2efda"/>
+  <text x="776" y="220" font-size="13" fill="#375623" text-anchor="middle" font-weight="700">1,862</text>
+
+  <!-- Table header below KPI cards -->
+  <rect x="36" y="250" width="800" height="24" fill="#2e75b6"/>
+  <text x="100" y="266" font-size="10" fill="#fff" text-anchor="middle" font-weight="600">Region</text>
+  <text x="250" y="266" font-size="10" fill="#fff" text-anchor="middle" font-weight="600">Total Revenue</text>
+  <text x="400" y="266" font-size="10" fill="#fff" text-anchor="middle" font-weight="600">Total Profit</text>
+  <text x="550" y="266" font-size="10" fill="#fff" text-anchor="middle" font-weight="600">Order Count</text>
+  <text x="700" y="266" font-size="10" fill="#fff" text-anchor="middle" font-weight="600">Profit Margin %</text>
+
+  <!-- Data rows -->
+  <rect x="36" y="274" width="800" height="22" fill="#fff"/>
+  <text x="100" y="289" font-size="10" fill="#333" text-anchor="middle">West</text>
+  <text x="250" y="289" font-size="10" fill="#333" text-anchor="middle">$725,457.82</text>
+  <text x="400" y="289" font-size="10" fill="#333" text-anchor="middle">$93,502.12</text>
+  <text x="550" y="289" font-size="10" fill="#333" text-anchor="middle">1,617</text>
+  <text x="700" y="289" font-size="10" fill="#333" text-anchor="middle">12.89%</text>
+
+  <rect x="36" y="296" width="800" height="22" fill="#f2f2f2"/>
+  <text x="100" y="311" font-size="10" fill="#333" text-anchor="middle">East</text>
+  <text x="250" y="311" font-size="10" fill="#333" text-anchor="middle">$678,781.24</text>
+  <text x="400" y="311" font-size="10" fill="#333" text-anchor="middle">$91,522.78</text>
+  <text x="550" y="311" font-size="10" fill="#333" text-anchor="middle">1,520</text>
+  <text x="700" y="311" font-size="10" fill="#333" text-anchor="middle">13.49%</text>
+
+  <rect x="36" y="318" width="800" height="22" fill="#fff"/>
+  <text x="100" y="333" font-size="10" fill="#333" text-anchor="middle">Central</text>
+  <text x="250" y="333" font-size="10" fill="#333" text-anchor="middle">$501,239.89</text>
+  <text x="400" y="333" font-size="10" fill="#333" text-anchor="middle">$39,706.36</text>
+  <text x="550" y="333" font-size="10" fill="#333" text-anchor="middle">1,151</text>
+  <text x="700" y="333" font-size="10" fill="#333" text-anchor="middle">7.92%</text>
+
+  <rect x="36" y="340" width="800" height="22" fill="#f2f2f2"/>
+  <text x="100" y="355" font-size="10" fill="#333" text-anchor="middle">South</text>
+  <text x="250" y="355" font-size="10" fill="#333" text-anchor="middle">$391,721.91</text>
+  <text x="400" y="355" font-size="10" fill="#333" text-anchor="middle">$61,665.73</text>
+  <text x="550" y="355" font-size="10" fill="#333" text-anchor="middle">721</text>
+  <text x="700" y="355" font-size="10" fill="#333" text-anchor="middle">15.74%</text>
+
+  <!-- Grid lines on table -->
+  <line x1="164" y1="250" x2="164" y2="362" stroke="#d0d0d0" stroke-width="0.5"/>
+  <line x1="330" y1="250" x2="330" y2="362" stroke="#d0d0d0" stroke-width="0.5"/>
+  <line x1="480" y1="250" x2="480" y2="362" stroke="#d0d0d0" stroke-width="0.5"/>
+  <line x1="630" y1="250" x2="630" y2="362" stroke="#d0d0d0" stroke-width="0.5"/>
+  <line x1="36" y1="274" x2="836" y2="274" stroke="#d0d0d0" stroke-width="0.5"/>
+  <line x1="36" y1="296" x2="836" y2="296" stroke="#d0d0d0" stroke-width="0.5"/>
+  <line x1="36" y1="318" x2="836" y2="318" stroke="#d0d0d0" stroke-width="0.5"/>
+  <line x1="36" y1="340" x2="836" y2="340" stroke="#d0d0d0" stroke-width="0.5"/>
+  <line x1="36" y1="362" x2="836" y2="362" stroke="#d0d0d0" stroke-width="0.5"/>
+
+  <!-- Column letters -->
+  <rect x="36" y="102" width="800" height="16" fill="#e5e5e5"/>
+  <line x1="36" y1="102" x2="36" y2="590" stroke="#d0d0d0" stroke-width="0.5"/>
+  <text x="101" y="113" font-size="9" fill="#888" text-anchor="middle">A</text>
+  <text x="237" y="113" font-size="9" fill="#888" text-anchor="middle">B</text>
+  <text x="373" y="113" font-size="9" fill="#888" text-anchor="middle">C</text>
+  <text x="509" y="113" font-size="9" fill="#888" text-anchor="middle">D</text>
+  <text x="645" y="113" font-size="9" fill="#888" text-anchor="middle">E</text>
+  <text x="776" y="113" font-size="9" fill="#888" text-anchor="middle">F</text>
+</svg>

@@ -1,0 +1,200 @@
+<svg width="1200" height="750" viewBox="0 0 1200 750" xmlns="http://www.w3.org/2000/svg" font-family="system-ui, -apple-system, sans-serif">
+  <!-- Browser chrome -->
+  <rect width="1200" height="750" fill="#f0f2f6"/>
+  <rect x="0" y="0" width="1200" height="40" fill="#262730" rx="0"/>
+  <circle cx="20" cy="20" r="6" fill="#ff5f57"/>
+  <circle cx="38" cy="20" r="6" fill="#febc2e"/>
+  <circle cx="56" cy="20" r="6" fill="#28c840"/>
+  <rect x="200" y="8" width="600" height="24" rx="4" fill="#1a1c26"/>
+  <text x="500" y="24" font-size="11" fill="#888" text-anchor="middle">localhost:8501</text>
+
+  <!-- Streamlit sidebar -->
+  <rect x="0" y="40" width="220" height="710" fill="#262730"/>
+  <text x="16" y="75" font-size="13" fill="#fff" font-weight="600">Sales KPI Dashboard</text>
+  <text x="16" y="95" font-size="10" fill="#888">Superstore Sales Analysis</text>
+  <line x1="16" y1="106" x2="204" y2="106" stroke="#444" stroke-width="0.5"/>
+  <text x="16" y="126" font-size="11" fill="#ccc" font-weight="600">🔍  Filters</text>
+  <text x="16" y="148" font-size="10" fill="#aaa">Year</text>
+  <rect x="16" y="153" width="188" height="28" rx="4" fill="#1a1c26" stroke="#444" stroke-width="0.5"/>
+  <text x="28" y="171" font-size="11" fill="#ddd">2021, 2022, 2023, 2024</text>
+  <text x="16" y="202" font-size="10" fill="#aaa">Region</text>
+  <rect x="16" y="207" width="188" height="28" rx="4" fill="#1a1c26" stroke="#444" stroke-width="0.5"/>
+  <text x="28" y="225" font-size="11" fill="#ddd">All regions</text>
+  <text x="16" y="255" font-size="10" fill="#aaa">Category</text>
+  <rect x="16" y="260" width="188" height="28" rx="4" fill="#1a1c26" stroke="#444" stroke-width="0.5"/>
+  <text x="28" y="278" font-size="11" fill="#ddd">All categories</text>
+  <text x="16" y="308" font-size="10" fill="#aaa">Segment</text>
+  <rect x="16" y="313" width="188" height="28" rx="4" fill="#1a1c26" stroke="#444" stroke-width="0.5"/>
+  <text x="28" y="331" font-size="11" fill="#ddd">All segments</text>
+  <line x1="16" y1="354" x2="204" y2="354" stroke="#444" stroke-width="0.5"/>
+  <text x="16" y="372" font-size="10" fill="#666">MoM drop threshold: 10%</text>
+
+  <!-- Main content area -->
+  <!-- Header -->
+  <text x="248" y="78" font-size="22" fill="#1f3864" font-weight="700">📊 Sales KPI Dashboard</text>
+  <text x="248" y="98" font-size="11" fill="#888">Superstore Sales Analysis · SQL-based KPIs · Automated Reporting</text>
+  <line x1="232" y1="108" x2="1184" y2="108" stroke="#ddd" stroke-width="0.5"/>
+
+  <!-- KPI Cards row -->
+  <!-- Card 1: Revenue -->
+  <rect x="232" y="118" width="155" height="70" rx="8" fill="#e8f0fb"/>
+  <text x="310" y="140" font-size="10" fill="#555" text-anchor="middle">💰 Total Revenue</text>
+  <text x="310" y="168" font-size="20" fill="#1f3864" text-anchor="middle" font-weight="700">$2.30M</text>
+
+  <!-- Card 2: Profit -->
+  <rect x="396" y="118" width="155" height="70" rx="8" fill="#e8f5e9"/>
+  <text x="474" y="140" font-size="10" fill="#555" text-anchor="middle">📈 Total Profit</text>
+  <text x="474" y="168" font-size="20" fill="#2e7d32" text-anchor="middle" font-weight="700">$286K</text>
+
+  <!-- Card 3: Margin -->
+  <rect x="560" y="118" width="155" height="70" rx="8" fill="#fff8e1"/>
+  <text x="638" y="140" font-size="10" fill="#555" text-anchor="middle">📊 Profit Margin</text>
+  <text x="638" y="168" font-size="20" fill="#f57f17" text-anchor="middle" font-weight="700">12.5%</text>
+
+  <!-- Card 4: Orders -->
+  <rect x="724" y="118" width="155" height="70" rx="8" fill="#e8f0fb"/>
+  <text x="802" y="140" font-size="10" fill="#555" text-anchor="middle">🛒 Total Orders</text>
+  <text x="802" y="168" font-size="20" fill="#1f3864" text-anchor="middle" font-weight="700">5,009</text>
+
+  <!-- Card 5: Customers -->
+  <rect x="888" y="118" width="155" height="70" rx="8" fill="#f3e5f5"/>
+  <text x="966" y="140" font-size="10" fill="#555" text-anchor="middle">👤 Customers</text>
+  <text x="966" y="168" font-size="20" fill="#6a1b9a" text-anchor="middle" font-weight="700">793</text>
+
+  <!-- Card 6: Products -->
+  <rect x="1010" y="118" width="155" height="70" rx="8" fill="#e8f5e9"/>
+  <text x="1088" y="140" font-size="10" fill="#555" text-anchor="middle">📦 Products</text>
+  <text x="1088" y="168" font-size="20" fill="#2e7d32" text-anchor="middle" font-weight="700">1,862</text>
+
+  <!-- Tab bar -->
+  <rect x="232" y="200" width="952" height="36" rx="4" fill="#e9ecef"/>
+  <rect x="236" y="204" width="200" height="28" rx="4" fill="#fff" stroke="#2e75b6" stroke-width="1.5"/>
+  <text x="336" y="222" font-size="11" fill="#2e75b6" text-anchor="middle" font-weight="600">📈 Trends &amp; KPIs</text>
+  <text x="490" y="222" font-size="11" fill="#666" text-anchor="middle">🗺️ Region &amp; Segment</text>
+  <text x="680" y="222" font-size="11" fill="#666" text-anchor="middle">📦 Products &amp; Categories</text>
+  <text x="870" y="222" font-size="11" fill="#666" text-anchor="middle">🗂️ Data &amp; Reports</text>
+
+  <!-- Monthly Trend Chart -->
+  <text x="232" y="260" font-size="14" fill="#1f3864" font-weight="600">📅 Monthly Revenue Trend</text>
+  <rect x="232" y="270" width="630" height="240" rx="8" fill="#fff" stroke="#e0e0e0" stroke-width="0.5"/>
+
+  <!-- Chart axes -->
+  <line x1="270" y1="480" x2="840" y2="480" stroke="#ddd" stroke-width="1"/>
+  <line x1="270" y1="290" x2="270" y2="480" stroke="#ddd" stroke-width="1"/>
+
+  <!-- Y axis labels -->
+  <text x="262" y="295" font-size="9" fill="#aaa" text-anchor="end">$50K</text>
+  <text x="262" y="340" font-size="9" fill="#aaa" text-anchor="end">$40K</text>
+  <text x="262" y="385" font-size="9" fill="#aaa" text-anchor="end">$30K</text>
+  <text x="262" y="430" font-size="9" fill="#aaa" text-anchor="end">$20K</text>
+  <text x="262" y="475" font-size="9" fill="#aaa" text-anchor="end">$10K</text>
+
+  <!-- Grid lines -->
+  <line x1="270" y1="295" x2="840" y2="295" stroke="#f5f5f5" stroke-width="1"/>
+  <line x1="270" y1="340" x2="840" y2="340" stroke="#f5f5f5" stroke-width="1"/>
+  <line x1="270" y1="385" x2="840" y2="385" stroke="#f5f5f5" stroke-width="1"/>
+  <line x1="270" y1="430" x2="840" y2="430" stroke="#f5f5f5" stroke-width="1"/>
+
+  <!-- Line chart path (monthly revenue) -->
+  <polyline points="285,445 325,430 360,420 395,400 430,410 465,385 500,375 535,395 570,360 605,340 640,355 675,320 710,380 745,310 780,290 820,300"
+    fill="none" stroke="#2e75b6" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- Data points -->
+  <circle cx="285" cy="445" r="3" fill="#2e75b6"/>
+  <circle cx="325" cy="430" r="3" fill="#2e75b6"/>
+  <circle cx="360" cy="420" r="3" fill="#2e75b6"/>
+  <circle cx="395" cy="400" r="3" fill="#2e75b6"/>
+  <circle cx="430" cy="410" r="3" fill="#2e75b6"/>
+  <circle cx="465" cy="385" r="3" fill="#2e75b6"/>
+  <circle cx="500" cy="375" r="3" fill="#2e75b6"/>
+  <circle cx="535" cy="395" r="3" fill="#2e75b6"/>
+  <circle cx="570" cy="360" r="3" fill="#2e75b6"/>
+  <circle cx="605" cy="340" r="3" fill="#2e75b6"/>
+  <circle cx="640" cy="355" r="3" fill="#2e75b6"/>
+  <circle cx="675" cy="320" r="3" fill="#2e75b6"/>
+  <circle cx="710" cy="380" r="8" fill="none" stroke="red" stroke-width="2"/>
+  <circle cx="710" cy="380" r="4" fill="red"/>
+  <circle cx="745" cy="310" r="3" fill="#2e75b6"/>
+  <circle cx="780" cy="290" r="3" fill="#2e75b6"/>
+  <circle cx="820" cy="300" r="3" fill="#2e75b6"/>
+
+  <!-- X axis labels -->
+  <text x="285" y="494" font-size="8" fill="#aaa" text-anchor="middle">Jan</text>
+  <text x="360" y="494" font-size="8" fill="#aaa" text-anchor="middle">Mar</text>
+  <text x="430" y="494" font-size="8" fill="#aaa" text-anchor="middle">May</text>
+  <text x="500" y="494" font-size="8" fill="#aaa" text-anchor="middle">Jul</text>
+  <text x="570" y="494" font-size="8" fill="#aaa" text-anchor="middle">Sep</text>
+  <text x="640" y="494" font-size="8" fill="#aaa" text-anchor="middle">Nov</text>
+  <text x="710" y="494" font-size="8" fill="#aaa" text-anchor="middle">Jan</text>
+  <text x="780" y="494" font-size="8" fill="#aaa" text-anchor="middle">Mar</text>
+  <text x="820" y="494" font-size="8" fill="#aaa" text-anchor="middle">May</text>
+
+  <!-- Legend -->
+  <line x1="610" y1="283" x2="630" y2="283" stroke="#2e75b6" stroke-width="2.5"/>
+  <circle cx="620" cy="283" r="3" fill="#2e75b6"/>
+  <text x="635" y="287" font-size="9" fill="#666">Revenue</text>
+  <circle cx="660" cy="283" r="5" fill="none" stroke="red" stroke-width="1.5"/>
+  <text x="668" y="287" font-size="9" fill="#666">⚠️ Drop &gt;10%</text>
+
+  <!-- Alert box -->
+  <rect x="232" y="518" width="630" height="30" rx="4" fill="#fff3cd" stroke="#ffc107" stroke-width="1"/>
+  <text x="248" y="537" font-size="11" fill="#856404">⚠️  1 month had a revenue drop &gt; 10%:  2023-01</text>
+
+  <!-- Scatter plot: Discount vs Profit -->
+  <text x="232" y="568" font-size="14" fill="#1f3864" font-weight="600">💹 Discount vs. Profit Margin</text>
+  <rect x="232" y="578" width="630" height="160" rx="8" fill="#fff" stroke="#e0e0e0" stroke-width="0.5"/>
+
+  <!-- Scatter dots (sample) -->
+  <circle cx="310" cy="680" r="3" fill="#2e75b6" opacity="0.5"/>
+  <circle cx="340" cy="650" r="3" fill="#2e75b6" opacity="0.5"/>
+  <circle cx="380" cy="700" r="3" fill="#70ad47" opacity="0.5"/>
+  <circle cx="420" cy="630" r="3" fill="#70ad47" opacity="0.5"/>
+  <circle cx="460" cy="695" r="3" fill="#ffd700" opacity="0.5"/>
+  <circle cx="500" cy="720" r="3" fill="#2e75b6" opacity="0.5"/>
+  <circle cx="540" cy="660" r="3" fill="#ffd700" opacity="0.5"/>
+  <circle cx="580" cy="640" r="3" fill="#70ad47" opacity="0.5"/>
+  <circle cx="620" cy="700" r="3" fill="#2e75b6" opacity="0.5"/>
+  <circle cx="660" cy="610" r="3" fill="#ffd700" opacity="0.5"/>
+  <circle cx="700" cy="690" r="3" fill="#70ad47" opacity="0.5"/>
+  <circle cx="740" cy="720" r="3" fill="#2e75b6" opacity="0.5"/>
+  <circle cx="780" cy="595" r="3" fill="#ffd700" opacity="0.5"/>
+
+  <!-- Right panel: Region chart -->
+  <text x="880" y="260" font-size="14" fill="#1f3864" font-weight="600">🗺️ Revenue by Region</text>
+  <rect x="880" y="270" width="300" height="220" rx="8" fill="#fff" stroke="#e0e0e0" stroke-width="0.5"/>
+
+  <!-- Bar chart: region -->
+  <rect x="920" y="310" width="110" height="30" rx="2" fill="#2e75b6"/>
+  <rect x="920" y="310" width="70" height="30" rx="2" fill="#70ad47" x="1035"/>
+  <text x="912" y="330" font-size="9" fill="#666" text-anchor="end">West</text>
+  <rect x="920" y="350" width="90" height="30" rx="2" fill="#2e75b6"/>
+  <text x="912" y="370" font-size="9" fill="#666" text-anchor="end">East</text>
+  <rect x="920" y="390" width="75" height="30" rx="2" fill="#2e75b6"/>
+  <text x="912" y="410" font-size="9" fill="#666" text-anchor="end">Central</text>
+  <rect x="920" y="430" width="60" height="30" rx="2" fill="#2e75b6"/>
+  <text x="912" y="450" font-size="9" fill="#666" text-anchor="end">South</text>
+
+  <!-- value labels -->
+  <text x="1035" y="330" font-size="9" fill="#555">$725K</text>
+  <text x="1015" y="370" font-size="9" fill="#555">$678K</text>
+  <text x="1000" y="410" font-size="9" fill="#555">$501K</text>
+  <text x="985" y="450" font-size="9" fill="#555">$391K</text>
+
+  <!-- Segment donut placeholder -->
+  <text x="880" y="510" font-size="14" fill="#1f3864" font-weight="600">👥 Revenue by Segment</text>
+  <rect x="880" y="520" width="300" height="220" rx="8" fill="#fff" stroke="#e0e0e0" stroke-width="0.5"/>
+  <!-- Pie -->
+  <circle cx="1030" cy="620" r="70" fill="#bdd7ee"/>
+  <!-- Segments -->
+  <path d="M1030,620 L1030,550 A70,70 0 0,1 1095,657 Z" fill="#2e75b6"/>
+  <path d="M1030,620 L1095,657 A70,70 0 0,1 980,683 Z" fill="#70ad47"/>
+  <path d="M1030,620 L980,683 A70,70 0 0,1 963,555 Z" fill="#ffd700"/>
+  <path d="M1030,620 L963,555 A70,70 0 0,1 1030,550 Z" fill="#bdd7ee"/>
+  <!-- Legend -->
+  <rect x="892" y="700" width="10" height="10" fill="#2e75b6"/>
+  <text x="906" y="710" font-size="9" fill="#555">Consumer (51%)</text>
+  <rect x="980" y="700" width="10" height="10" fill="#70ad47"/>
+  <text x="994" y="710" font-size="9" fill="#555">Corporate (30%)</text>
+  <rect x="1070" y="700" width="10" height="10" fill="#ffd700"/>
+  <text x="1084" y="710" font-size="9" fill="#555">Home (19%)</text>
+</svg>
