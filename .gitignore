@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Data & database (large files — add via Git LFS or keep local)
+data/raw/
+data/processed/
+data/*.db
+*.db
+
+# Generated reports
+reports/output/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# IDE
+.vscode/
+.idea/
+*.suo
+*.user
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets / config overrides
+.env
+*.env
+secrets.py
+
+# Power BI (binary — optional to commit)
+dashboard/*.pbix
