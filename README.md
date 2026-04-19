@@ -27,7 +27,7 @@ This project covers the complete data analyst workflow: data cleaning with Pytho
 
 > 📸 **Screenshot goes here** — see [Screenshots to Take](#screenshots-to-take) section below.
 
-![Dashboard Overview](assets/dashboard_screenshot.png)
+![Dashboard Overview](assets/dashboard_screenshot.svg)
 
 ---
 
@@ -72,7 +72,7 @@ sales-kpi-dashboard/
 │   └── output/                     # Generated .xlsx reports land here
 │
 ├── assets/
-│   └── dashboard_screenshot.png   # Screenshot for README
+│   └── dashboard_screenshot.svg   # Screenshot for README
 │
 ├── config.py                       # Paths, thresholds, settings
 ├── main.py                         # Run full pipeline end-to-end
@@ -243,14 +243,14 @@ After running the project, capture these screenshots and place them in the `asse
 
 | Screenshot | Filename | What to capture |
 |------------|----------|-----------------|
-| **Dashboard Overview** | `dashboard_screenshot.png` | Full browser window of the Streamlit app showing KPI cards + trend chart |
-| **Trend Tab** | `trend_chart.png` | Monthly Revenue Trend chart with red-marked drop months highlighted |
-| **Region Chart** | `region_chart.png` | Grouped bar chart of Revenue vs Profit by Region |
-| **Category Treemap** | `category_treemap.png` | The treemap showing category/sub-category revenue breakdown |
-| **Top Products** | `top_products.png` | Horizontal bar chart of the Top 10 products |
-| **Excel Report** | `excel_report.png` | Excel open at the Executive Summary sheet showing KPI cards |
-| **Terminal Pipeline** | `pipeline_run.png` | VS Code terminal showing `python main.py` running all 5 steps |
-| **SQL Query Result** | `sql_query.png` | VS Code or terminal showing a SQL query output (e.g. revenue by region) |
+| **Dashboard Overview** | `dashboard_screenshot.svg` | Full browser window of the Streamlit app showing KPI cards + trend chart |
+| **Trend Tab** | `trend_chart.svg` | Monthly Revenue Trend chart with red-marked drop months highlighted |
+| **Region Chart** | `region_chart.svg` | Grouped bar chart of Revenue vs Profit by Region |
+| **Category Treemap** | `category_treemap.svg` | The treemap showing category/sub-category revenue breakdown |
+| **Top Products** | `top_products.svg` | Horizontal bar chart of the Top 10 products |
+| **Excel Report** | `excel_report.svg` | Excel open at the Executive Summary sheet showing KPI cards |
+| **Terminal Pipeline** | `pipeline_run.svg` | VS Code terminal showing `python main.py` running all 5 steps |
+| **SQL Query Result** | `sql_query.svg` | VS Code or terminal showing a SQL query output (e.g. revenue by region) |
 
 > **Tip:** Use **Windows Snipping Tool** (`Win+Shift+S`) or **Lightshot** for clean screenshots.  
 > Aim for 1200–1600 px wide. Crop to remove any personal info from your browser/taskbar.
